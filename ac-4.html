@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+        <head>
+
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+            <link href="estilo_form.css" rel="stylesheet" type="text/css" />
+            <title>Formulário</title>
+
+        </head>
+
+        <body>
+                
+                <form id="form1" name="form1" method="post" action="">
+
+                        <fieldset> 
+                            
+                            <legend>Cadastro de Editoras:</legend> 
+                            
+                            <div class="linha"> 
+                                <label class="rotulo">Nome: <br /> 
+                                    <input class="nome" name="nome" type="text" id="nome" placeholder="João da Silva" size="40" maxlength="20"/> 
+                                </label> 
+                            </div> 
+
+                            <div class="linha2"> 
+                                <label class="rotulo">Endereço: <br /> 
+                                    <input class="endereco" name="endereco" type="text" id="endereco"  placeholder="Av. SemFim, 12 FimDoMundo " size="40" maxlength="30"/> 
+                                </label> 
+                            </div>
+
+                            <div class="linha"> 
+                                <label class="rotulo">Cidade: 
+                                    <input class="padrao" name="cidade" type="text" id="cidade" size="15" /> 
+                                </label> 
+
+                                <label class="rotulo">UF: 
+                                <input class="padrao" name="UF" type="text" id="UF" size="2" maxlength="2" /> 
+                                </label> 
+
+                            </div> 
+
+                            <div class="linha2"> 
+                                <label class="rotulo">RG: <br /> 
+                                    <input class="padrao" name="RG" type="text" id="RG" size="40" maxlength="9"/> 
+                                </label> 
+                            </div>
+
+                            <div class="linha"> 
+                                <label class="rotulo">CPF: <br /> 
+                                    <input class="cpf" name="CPF" type="text" id="CPF" size="10" maxlength="15"/> 
+                                </label>
+                            </div> 
+
+                            <div class="linha2"> 
+                                <label class="rotulo"> 
+                                    Email: <br /> 
+                                    <input class="nome" name="email" type="text" id="email" size="40" /> 
+                                </label> 
+                            </div>
+
+                            <div class="linha"> 
+                                <label class="rotulo">Rede Social: <br />
+                                    <input name="Facebook" type="checkbox" id="Facebook" value="Facebook" />Facebook 
+                                    <input name="Twitter" type="checkbox" id="Twitter" value="Twitter" />Twitter
+                                    <input name="Whatsapp" type="checkbox" id="Whatsapp" value="Whatsapp" />Whatsapp
+                                    <input name="Outros" type="checkbox" id="Outros" value="Outros" />Outros
+                                </label> 
+                            </div>
+                            <br>
+
+                            <div class="linha2"> 
+                                <label class="rotulo">Cursos: 
+                                    <select name="cursos" id="cursos"> 
+                                        <option>Redes</option> 
+                                        <option>SI</option> 
+                                        <option>ADS</option>
+                                    </select> 
+                                </label>
+                            </div> 
+
+                            <div class="linha"> 
+                                <label class="rotulo">Comentários: <br /> 
+                                    <textarea class="nome" name="comentarios" cols="42" rows="4" id="comentarios" maxlength="100"></textarea> 
+                                </label> 
+                            </div>
+                            
+                            <div class="linha"> 
+                                <label><input name="Cadastrar" type="submit" id="Cadastrar" value="Cadastrar" /> </label> 
+                            </div> 
+                            
+                        </fieldset>
+                    </form> 
+        </body>
+</html
