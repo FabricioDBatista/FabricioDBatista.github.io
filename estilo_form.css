@@ -66,3 +66,56 @@ input,select,textarea{
 .fonteVermelha{
     color: red;
 }
+
+/*------------   código CSS da AC-4    -----------------*/
+
+.nome{ 
+ background-color:lightblue;
+
+}
+.nome:focus{
+background-color: white;
+font-weight: bold;
+}
+.nome::-webkit-input-placeholder { 
+    font-style: italic;
+  }
+
+
+.endereco{
+background-color:lightblue;
+}
+.endereco:focus{
+background-color: white;
+font-weight: bold;
+}
+.endereco::-webkit-input-placeholder { 
+    font-style: italic;
+}
+
+.padrao{
+background-color:lightblue;  
+}
+.padrao:focus{
+    background-color: white;
+    font-weight: bold;
+}
+.padrao::-webkit-input-placeholder { 
+    font-style: italic;
+}
+
+.cpf{
+    background-color:lightblue;
+}
+.cpf:focus{
+    background-color: white;
+    font-weight: bold;
+
+}
+.padrao::-webkit-input-placeholder{
+    font-style: italic;
+}
+.rotulo{
+    font-style: italic;
+}
+
